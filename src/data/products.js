@@ -114,6 +114,7 @@ export const products = [
     ],
     stripe_link: 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK',
     aliexpress_url: 'https://www.aliexpress.us/item/3256806652317694.html',
+    image: 'https://ae-pic-a1.aliexpress-media.com/kf/Se3d0810edcb2455dac54582ee2855359p.jpg_480x480q75.jpg_.avif',
   },
   {
     id: 'first-aid-50pc',
@@ -136,6 +137,7 @@ export const products = [
     ],
     stripe_link: 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK',
     aliexpress_url: 'https://www.aliexpress.us/item/3256807801368669.html',
+    image: 'https://ae-pic-a1.aliexpress-media.com/kf/Sf58c04d91c0a427da9f73bfd224c901d4.jpg_480x480q75.jpg_.avif',
   },
   {
     id: 'fire-starter-12pc',
