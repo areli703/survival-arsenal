@@ -109,32 +109,36 @@ export function ProductIcon({ category, productId }) {
     if (productId === 'fire-starter-12pc') {
       return (
         <OliveBox label="Fire Starter">
-          <circle cx="100" cy="100" r="50" fill="#3a3a20" stroke="#1a1a10" strokeWidth="2" />
-          <g>
-            <rect x="80" y="80" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="92" y="80" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="104" y="80" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="80" y="92" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="92" y="92" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="104" y="92" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="80" y="104" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="92" y="104" width="8" height="8" fill="#fff" opacity="0.9" />
-            <rect x="104" y="104" width="8" height="8" fill="#fff" opacity="0.9" />
+          <circle cx="100" cy="105" r="55" fill="#2a2a1a" stroke="#1a1a10" strokeWidth="2" />
+          <g transform="translate(100,105)">
+            <rect x="-30" y="-15" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="-12" y="-15" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="6" y="-15" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="24" y="-15" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="-30" y="3" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="-12" y="3" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="6" y="3" width="14" height="14" fill="#e8d8a0" rx="2" />
+            <rect x="24" y="3" width="14" height="14" fill="#e8d8a0" rx="2" />
           </g>
-          <path d="M70 130 L85 110 L100 125 L115 108 L130 130" fill="#ff6b00" opacity="0.85" stroke="#cc5500" strokeWidth="1.5" />
+          <path d="M70 145 Q85 110 100 130 Q115 110 130 145" fill="#ff6b00" opacity="0.9" stroke="#cc4400" strokeWidth="1.5" />
+          <path d="M85 160 Q100 135 115 160" fill="#ff9500" opacity="0.7" />
         </OliveBox>
       )
     }
     if (productId === 'water-filter-straw') {
       return (
         <OliveBox label="Water Filter">
-          <rect x="85" y="50" width="30" height="100" rx="15" fill="#0277bd" stroke="#01579b" strokeWidth="2" />
-          <rect x="92" y="40" width="16" height="15" rx="3" fill="#01579b" />
-          <rect x="85" y="65" width="30" height="3" fill="#01579b" />
-          <rect x="85" y="80" width="30" height="3" fill="#01579b" />
-          <rect x="85" y="95" width="30" height="3" fill="#01579b" />
-          <rect x="85" y="110" width="30" height="3" fill="#01579b" />
-          <rect x="95" y="150" width="10" height="6" fill="#01579b" />
+          <rect x="80" y="40" width="40" height="120" rx="20" fill="#0277bd" stroke="#01579b" strokeWidth="2" />
+          <rect x="80" y="40" width="40" height="40" rx="20" fill="#0288d1" />
+          <rect x="93" y="28" width="14" height="16" rx="2" fill="#01579b" />
+          <circle cx="100" cy="34" r="4" fill="#4fc3f7" />
+          <rect x="85" y="85" width="30" height="3" fill="#01579b" opacity="0.5" />
+          <rect x="85" y="95" width="30" height="3" fill="#01579b" opacity="0.5" />
+          <rect x="85" y="105" width="30" height="3" fill="#01579b" opacity="0.5" />
+          <rect x="85" y="115" width="30" height="3" fill="#01579b" opacity="0.5" />
+          <rect x="92" y="158" width="16" height="8" fill="#01579b" />
+          <rect x="95" y="166" width="10" height="6" fill="#0288d1" />
+          <circle cx="100" cy="170" r="3" fill="#4fc3f7" opacity="0.6" />
         </OliveBox>
       )
     }

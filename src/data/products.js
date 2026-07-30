@@ -193,7 +193,7 @@ export const products = [
     rating: 4.7,
     orders: 5000,
     category: 'fire-water',
-    badge: 'SAMPLE-CHECK',
+    badge: 'TRUSTED',
     description:
       'Don\'t trust the tap. Trust a $25 straw. Filters 1,000+ gallons, removes 99.9% of bacteria and parasites. Perfect for emergency kits, hiking, camping.',
     features: [
@@ -215,7 +215,7 @@ export const products = [
     rating: 4.5,
     orders: 1000,
     category: 'kits',
-    badge: 'SAMPLE-CHECK',
+    badge: 'POWER BANK',
     description:
       'NOAA alerts when the grid goes down. No batteries needed. Hand-crank + solar + 5000mAh backup power bank. Charges your phone, too.',
     features: [
