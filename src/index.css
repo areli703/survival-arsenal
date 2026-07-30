@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-body bg-army-50 text-army-900;
+  }
+  h1, h2, h3 { @apply font-display tracking-wide; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-accent-500 hover:bg-accent-600 text-white font-bold uppercase tracking-wider px-6 py-3 transition-colors;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center border-2 border-army-900 hover:bg-army-900 hover:text-army-50 text-army-900 font-bold uppercase tracking-wider px-6 py-3 transition-colors;
+  }
+  .card {
+    @apply bg-white border-2 border-army-900/10 hover:border-accent-500 transition-colors;
+  }
+}
