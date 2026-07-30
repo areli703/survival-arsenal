@@ -24,6 +24,7 @@ export const products = [
     ],
     stripe_link: 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK',
     aliexpress_url: 'https://www.aliexpress.us/item/3256806675644300.html',
+    image: 'https://ae-pic-a1.aliexpress-media.com/kf/Sdbbf74e4ab984888b4dbbff951cb576f7.jpg_480x480q75.jpg_.avif',
   },
   {
     id: 'flashlight-rechargeable',
@@ -90,6 +91,7 @@ export const products = [
     ],
     stripe_link: 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK',
     aliexpress_url: 'https://www.aliexpress.us/item/3256806810581299.html',
+    image: 'https://ae-pic-a1.aliexpress-media.com/kf/S384f7a75447a4d3a8e22b1ff0f4961ccu.jpg_480x480q75.jpg_.avif',
   },
   {
     id: 'first-aid-multipurpose',

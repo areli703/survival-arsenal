@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { products } from '../data/products'
+import { ProductIcon } from '../components/ProductIcon'
 
 export default function Product() {
   const { id } = useParams()
@@ -18,11 +19,12 @@ export default function Product() {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <Link to="/" className="text-sm text-army-500 hover:text-accent-500 mb-6 inline-block">← Back to Shop</Link>
       <div className="grid md:grid-cols-2 gap-12">
-        <div className="aspect-square bg-army-100 flex items-center justify-center text-9xl">
-          {product.category === 'first-aid' && '🩹'}
-          {product.category === 'lighting' && '🔦'}
-          {product.category === 'fire-water' && '🔥'}
-          {product.category === 'kits' && '🎒'}
+        <div className="aspect-square bg-army-100 flex items-center justify-center overflow-hidden">
+          {product.image ? (
+            <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+          ) : (
+            <ProductIcon category={product.category} productId={product.id} />
+          )}
         </div>
         <div>
           {product.badge && (
